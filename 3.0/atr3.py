@@ -19,10 +19,6 @@ import errno
 import shutil
 import hashlib
 
-import gevent  # pip install gevent
-from gevent.queue import *
-from gevent.event import Event
-import gevent.monkey
 
 
 def sub_worker(t):
